@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "title": "Rizwan Ansari — Salesforce Marketing Cloud & Data Cloud Developer",
+    "description": "Portfolio of Rizwan Ansari, Salesforce Marketing Cloud Developer and Data Analyst specializing in SFMC runtime, SQL audience segmentation, Data Cloud, and campaign automation.",
+    "siteUrl": "https://rizwanansari.dev",
+    "ogImage": "assets/images/rizwan-ansari.jpg",
+    "author": "Rizwan Ansari",
+    "locale": "en_US"
+  },
+  "hero": {
+    "name": "Rizwan Ansari",
+    "headline": "Salesforce Marketing Cloud Developer | Marketing Cloud Next | Data Cloud",
+    "intro": "Marketing operations and Salesforce professional engineering automated, data-driven lifecycle solutions across classic SFMC, Marketing Cloud Next, and Data Cloud, replacing repetitive work with automation and AI.",
+    "avatar": "assets/images/rizwan-ansari.jpg",
+    "location": "Mumbai, India",
+    "actions": [
+      {
+        "label": "Resume (PDF)",
+        "url": "assets/resume/Rizwan_Ansari_Resume.pdf",
+        "primary": true,
+        "isExternal": true
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/rizwan-ansari-a672ab1b3/",
+        "primary": false,
+        "isExternal": true
+      },
+      {
+        "label": "Contact",
+        "url": "#contact",
+        "primary": false,
+        "isExternal": false
+      }
+    ]
+  },
+  "about": {
+    "title": "About",
+    "bio": "I am a Salesforce Marketing Cloud Developer and Data Analyst based in Mumbai, with a B.Tech in Computer Science and Engineering from Dr. A. P. J. Abdul Kalam Technical University, Lucknow. Working at BrinkView LLP, my engineering focuses on the intersection of data architecture, lifecycle automation, and campaign analytics across Salesforce Marketing Cloud, Sales Cloud, and Data Cloud.\n\nOn the platform development side, I design and maintain normalized Data Extensions, write complex SQL queries for audience segmentation, and build multi-step journeys in Journey Builder and Automation Studio. On the analytics side, I specialize in connecting disparate CRM datasets, auditing data hygiene, and tracking post-deployment funnel performance to evaluate engagement trends and attribution.\n\nWith four Salesforce certifications—including Data360 Consultant and Agentforce Specialist—I focus on scaling marketing operations into Marketing Cloud Next and Data Cloud data graphs, replacing repetitive manual processes with resilient automation, and documenting what I build.",
+    "highlights": [
+      {
+        "title": "Education",
+        "value": "B.Tech in Computer Science & Engineering"
+      },
+      {
+        "title": "Current Role",
+        "value": "SFMC Developer at BrinkView LLP"
+      },
+      {
+        "title": "Location",
+        "value": "Mumbai, India"
+      },
+      {
+        "title": "Core Focus",
+        "value": "SFMC Engineering & Data Analytics"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "groups": [
+      {
+        "id": "classic-sfmc",
+        "title": "Classic SFMC",
+        "description": "Production development, complex scripting, data architecture, and multi-channel journeys.",
+        "skills": [
+          "AMPscript",
+          "Server-Side JavaScript (SSJS)",
+          "SQL Query Activities",
+          "REST & SOAP APIs",
+          "Journey Builder",
+          "Automation Studio",
+          "CloudPages",
+          "Data Extensions",
+          "Contact Builder"
+        ]
+      },
+      {
+        "id": "marketing-cloud-next",
+        "title": "Marketing Cloud Next",
+        "description": "Next-generation Flow-based automation, dynamic templating, and native platform integration.",
+        "skills": [
+          "Salesforce Flows",
+          "Consent Management",
+          "Send Email Message Elements",
+          "Handlebars Personalization",
+          "Content Variations",
+          "Unified Messaging",
+          "Data Cloud Ingestion"
+        ]
+      },
+      {
+        "id": "data-cloud",
+        "title": "Data Cloud",
+        "description": "Enterprise customer data unification, real-time data modeling, and segment activation.",
+        "skills": [
+          "Identity Resolution",
+          "Data Graphs",
+          "Calculated Insights",
+          "Streaming Ingestion",
+          "Dynamic Segmentation",
+          "Data Model Objects (DMO)",
+          "Activation Targets"
+        ]
+      },
+      {
+        "id": "automation-tooling",
+        "title": "Automation & Tooling",
+        "description": "Integration middleware, prompt engineering, developer utilities, and modern hosting.",
+        "skills": [
+          "n8n Workflows",
+          "LLM Prompt Design",
+          "Google Gemini API",
+          "Vercel Deployments",
+          "Git Version Control",
+          "Webhook Integrations",
+          "DNS Diagnostic CLI Tools"
+        ]
+      }
+    ]
+  },
+  "featuredProjects": {
+    "title": "Featured Projects",
+    "subtitle": "In-depth case studies in Marketing Cloud Next architectures, data unification, and developer tooling.",
+    "projects": [
+      {
+        "id": "medicare-mcn-poc",
+        "title": "MediCare Health Network — MCN POC",
+        "tagline": "Real-time patient consent capture and automated transactional confirmation architecture in Marketing Cloud Next.",
+        "category": "Marketing Cloud Next POC",
+        "tags": ["Marketing Cloud Next", "Salesforce Flows", "Consent Model", "Transactional Messaging"],
+        "caseStudy": {
+          "problem": "Healthcare inquiry onboarding required immediate patient consent verification with an uncompromised audit trail, zero-latency confirmation delivery, and seamless Contact/Lead deduplication without manual data routing.",
+          "whatIBuilt": "Engineered an inbound web form ingestion pipeline in Salesforce Marketing Cloud Next. When someone submits the form, the solution looks for an existing Contact with the same email and updates it; if no Contact exists, it looks for an existing Lead with the same email and updates it; if neither exists, it creates a new Lead. The flow records the person's email consent and dispatches an automated transactional thank-you confirmation email.",
+          "tools": [
+            "Marketing Cloud Next",
+            "Salesforce Flows",
+            "Consent Management Data Model",
+            "Transactional Messaging Engine",
+            "Contact & Lead Matching Logic"
+          ],
+          "outcome": "Eliminated duplicate Contact and Lead record creation on website form submissions. Fully automated the deduplication and matching sequence, verified email consent logging, and enabled immediate transactional thank-you delivery with zero manual data handling.",
+          "link": ""
+        }
+      },
+      {
+        "id": "dreamhomes-real-estate",
+        "title": "DreamHomes — Real Estate MCN Implementation",
+        "tagline": "Dynamic property inquiry gating, junction object modeling, and category-personalized lifecycle journeys.",
+        "category": "Real Estate Demo",
+        "tags": ["Marketing Cloud Next", "Handlebars Syntax", "Content Variations", "Data Modeling"],
+        "caseStudy": {
+          "problem": "A real estate landing page enquiry form needed to initiate property-specific email journeys in Salesforce without creating duplicate records or losing property interest context.",
+          "whatIBuilt": "Constructed an enquiry form and landing page flow. On submission, the solution looks for an existing Contact with matching email and updates it; if none, it matches and updates an existing Lead; if neither exists, it provisions a new Lead. It adds the prospect to the campaign, records email consent, and triggers a property-specific email tailored to their interest (Apartment, Commercial, Plot, or Villa). After a 5-minute wait, it automatically delivers a targeted brochure follow-up for that same property category.",
+          "tools": [
+            "Marketing Cloud Next Flows",
+            "Handlebars Personalization",
+            "Content Variations",
+            "Campaign Management",
+            "Property Enquiry Routing"
+          ],
+          "outcome": "Streamlined property interest routing without creating duplicate records. Ensured 100% accurate consent capture, campaign attribution, and delivered an automated two-stage personalized nurture sequence within 5 minutes of inquiry.",
+          "link": ""
+        }
+      },
+      {
+        "id": "localization-studio",
+        "title": "Localization Studio — MCN XLF Translation Tool",
+        "tagline": "AI-powered XLF localization utility protecting Handlebars tokens, merge variables, and brand glossaries.",
+        "category": "Developer Tooling",
+        "tags": ["Gemini API", "Vercel", "XLF Parser", "Handlebars", "Content Variations"],
+        "caseStudy": {
+          "problem": "Localizing multi-language email Content Variations in Marketing Cloud Next using standard translation tools frequently corrupted Handlebars syntax (e.g. {{Recipient.FirstName}}), broke HTML markup, or translated protected brand nomenclature.",
+          "whatIBuilt": "Developed a dedicated web application that parses MCN XLF export files, tokenizes and shields all Handlebars expressions and brand glossary terms, translates variations using Google Gemini API prompts with structured schema constraints, and reassembles fully validated XLF packages ready for direct MCN import.",
+          "tools": [
+            "Google Gemini API",
+            "Vercel Serverless Functions",
+            "Node.js & XML/XLF AST Parsing",
+            "Regular Expression Tokenizer",
+            "Tailwind CSS / Vanilla Interface"
+          ],
+          "outcome": "Achieved a 100% token preservation rate across translated variants, eliminating syntax corruption incidents and reducing multi-language email preparation time from hours to seconds.",
+          "link": "https://xlf-translator-demo.vercel.app/"
+        }
+      }
+    ]
+  },
+  "smallerBuilds": {
+    "title": "Smaller Builds & Tooling",
+    "subtitle": "Micro-applications, workflow automations, and architectural specifications.",
+    "builds": [
+      {
+        "title": "LinkedIn Lead-Gen & n8n Workflows",
+        "description": "Automated inbound webhook listeners capturing ad leads, cleansing data payloads, validating email syntax, and piping structured records directly into Marketing Cloud Data Extensions.",
+        "tags": ["n8n", "Webhooks", "SFMC API", "Data Hygiene"]
+      },
+      {
+        "title": "B2B Lead Generation Spec",
+        "description": "End-to-end architectural specification mapping multi-touch lead scoring, progressive profiling, MQL-to-SQL threshold routing, and sales rep alert automations in classic SFMC.",
+        "tags": ["Lead Scoring", "Architecture Spec", "Journey Builder", "SQL"]
+      },
+      {
+        "title": "AI Image Prompt Generator",
+        "description": "Structured prompt engine designed for lifecycle marketing teams to generate brand-aligned, high-conversion email hero and banner assets with deterministic style guardrails.",
+        "tags": ["Prompt Engineering", "LLM", "Asset Creation", "Creative Ops"]
+      },
+      {
+        "title": "Banking Data Extraction Prompts",
+        "description": "Few-shot prompt architecture for reliably parsing semi-structured PDF statements and financial transaction logs into normalized JSON schemas for downstream segmentation.",
+        "tags": ["Structured Data", "Few-Shot Prompting", "JSON Schema", "ETL"]
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications & Continuous Learning",
+    "salesforceCredentials": [
+      {
+        "name": "Salesforce Certified Data360 Consultant",
+        "badge": "Data360 Consultant",
+        "status": "Active",
+        "date": "Issued May 2026",
+        "verificationUrl": "https://www.salesforce.com/trailblazer/mrizzu4"
+      },
+      {
+        "name": "Salesforce Certified Agentforce Specialist",
+        "badge": "Agentforce Specialist",
+        "status": "Active",
+        "date": "Issued Apr 2026",
+        "verificationUrl": "https://www.salesforce.com/trailblazer/mrizzu4"
+      },
+      {
+        "name": "Salesforce Certified Marketing Cloud Email Specialist",
+        "badge": "Email Specialist",
+        "status": "Active",
+        "date": "Active",
+        "verificationUrl": "https://www.salesforce.com/trailblazer/mrizzu4"
+      },
+      {
+        "name": "Salesforce Certified Platform Foundations",
+        "badge": "Platform Foundations",
+        "status": "Active",
+        "date": "Active",
+        "verificationUrl": "https://www.salesforce.com/trailblazer/mrizzu4"
+      },
+      {
+        "name": "Agentforce 360 League: Achiever",
+        "badge": "Achiever",
+        "status": "Honors",
+        "date": "Recognized",
+        "verificationUrl": "https://www.salesforce.com/trailblazer/mrizzu4"
+      }
+    ],
+    "challenge": {
+      "title": "Marketing Cloud Next 30-Day Challenge",
+      "description": "Hands-on self-learning initiative covering next-generation Salesforce marketing architectures: flow-based event orchestration, consent-centric data contracts, transactional messaging integrations, and dynamic Handlebars templating.",
+      "milestone": "Completed 30-day self-learning initiative"
+    },
+    "learningInitiative": {
+      "title": "#DecodeSFMC Learning Initiative",
+      "description": "A self-directed, six-month learning and technical certification initiative mastering core SFMC runtime, data engineering, and automation architecture, documented publicly on LinkedIn."
+    }
+  },
+  "community": {
+    "title": "Community & Writing",
+    "subtitle": "Active contributor across regional Trailblazer groups, technical conferences, and thought leadership forums.",
+    "milestones": [
+      {
+        "title": "Women In Tech Dreamin' 2024 (Kolkata)",
+        "role": "Volunteer",
+        "description": "Supported event operations, speaker logistics, and attendee onboarding for one of India's premier community-led Salesforce conferences."
+      },
+      {
+        "title": "Bharat Dreamin' 2026 (Jaipur)",
+        "role": "Volunteer & Chief Guest Coordinator",
+        "description": "Contributed as an on-ground event volunteer, taking care of the Chief Guest and coordinating speaker logistics and technical track sessions in Jaipur."
+      },
+      {
+        "title": "Delhi Dreamin' 2026",
+        "role": "Participant & Champion",
+        "description": "Engaged participant and winner of the #MomentMarketers Social Media Challenge, recognizing technical storytelling and ecosystem advocacy."
+      },
+      {
+        "title": "Mumbai SFMC Community",
+        "role": "Core Team Member & Graphic Designer",
+        "description": "Core team member responsible for visual design and marketing creative, designing event posters, speaker announcements, and branding collateral."
+      }
+    ],
+    "posts": [
+      {
+        "title": "Architecting for Deliverability: Demystifying DMARC, SPF, and DKIM Alignment in SFMC",
+        "summary": "A deep dive into DNS configurations, common sender alignment pitfalls, and diagnostic workflows to safeguard enterprise inbox placement.",
+        "tags": ["Deliverability", "DNS", "DMARC", "SFMC"],
+        "url": "https://www.linkedin.com/in/rizwan-ansari-a672ab1b3/"
+      },
+      {
+        "title": "Protecting Handlebars Syntax in Multilingual Email Variations with Google Gemini",
+        "summary": "How we built Localization Studio to shield merge tokens and brand glossaries from LLM translation corruption during XLF imports.",
+        "tags": ["Marketing Cloud Next", "Gemini API", "XLF", "AI"],
+        "url": "https://www.linkedin.com/in/rizwan-ansari-a672ab1b3/"
+      },
+      {
+        "title": "Transitioning from Journey Builder to Marketing Cloud Next Flows: What Changes?",
+        "summary": "Key architectural shifts between classic journey decision splits and native Salesforce Flow orchestration in Marketing Cloud Next.",
+        "tags": ["MCN", "Flows", "Journey Builder", "Architecture"],
+        "url": "https://www.linkedin.com/in/rizwan-ansari-a672ab1b3/"
+      },
+      {
+        "title": "Key Takeaways from Women In Tech Dreamin' Kolkata & Bharat Dreamin' Jaipur",
+        "summary": "Reflections on community volunteering, the expanding footprint of Data Cloud, and collaborative problem-solving across Indian developer groups.",
+        "tags": ["Community", "Trailblazer", "Data Cloud", "Events"],
+        "url": "https://www.linkedin.com/in/rizwan-ansari-a672ab1b3/"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "openRolesText": "I am currently open to opportunities as a Salesforce Marketing Cloud Developer, Marketing Automation Specialist, or Email Content Marketing Strategist.",
+    "email": "mdrizzu04@gmail.com",
+    "phone": "+91-9984533621",
+    "linkedin": "https://www.linkedin.com/in/rizwan-ansari-a672ab1b3/",
+    "trailblazer": "https://www.salesforce.com/trailblazer/mrizzu4",
+    "location": "Mumbai, India (Open to Remote / Hybrid / On-site roles)"
+  }
+}
