@@ -1,0 +1,24 @@
+{
+  "name": "rizwan-ansari-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Rizwan Ansari, Salesforce Marketing Cloud & Data Cloud Developer",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js && npx --yes serve -l 3000 .",
+    "start": "npx --yes serve -l 3000 ."
+  },
+  "keywords": [
+    "salesforce",
+    "marketing-cloud",
+    "data-cloud",
+    "agentforce",
+    "portfolio",
+    "mcn"
+  ],
+  "author": "Rizwan Ansari",
+  "license": "MIT",
+  "dependencies": {
+    "lighthouse": "^13.6.0"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+.vercel/
+*.log
+lighthouse-report.json
+lighthouse-summary.json
+.DS_Store
+Thumbs.db
